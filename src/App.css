@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 30px;
+}
+
+.heading {
+  text-align: center;
+  color: #222;
+  margin-bottom: 30px;
+}
+
+.search-box {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.search-box input {
+  flex: 1;
+  padding: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1d4ed8;
+}
+
+.course-form {
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.course-form h2 {
+  margin-top: 0;
+}
+
+.course-form input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.course-card {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.course-title {
+  color: #2c3e50;
+}
+
+.delete-btn {
+  background-color: #dc2626;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+.edit-btn {
+  background-color: #16a34a;
+  margin-left: 10px;
+}
+
+.edit-btn:hover {
+  background-color: #15803d;
+}
+.navbar {
+  background-color: #1e293b;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar h2 {
+  margin: 0;
+}
+
+.navbar button {
+  margin-left: 10px;
+}
+
+.user-text {
+  margin-left: 15px;
+  font-weight: bold;
+}
+
+.auth-box {
+  background-color: white;
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0px 2px 8px rgba(0,0,0,0.1);
+}
+
+.auth-box input,
+.auth-box select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  box-sizing: border-box;
+}
+
+.course-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 15px;
+}
