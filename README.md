@@ -45,6 +45,21 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
+### Folder Structure
+EduConnect Frontend
+
+Tech Stack:
+- React.js
+- Axios
+- CSS
+
+Features:
+- View courses
+- Add/Edit/Delete courses
+- Student enrollment
+- Login/Register UI
+- Responsive design
+
 ### Code Splitting
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
